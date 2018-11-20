@@ -141,7 +141,7 @@ class SingleProject extends Component {
         return !!this.state.errors[field]
     }
 
-    renderErrorFor (field) {
+    renderErrorFor (field) { 
         if (this.hasErrorFor(field)) {
             return (
                 <span className='invalid-feedback'>
